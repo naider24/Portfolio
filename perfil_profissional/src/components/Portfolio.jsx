@@ -2,6 +2,7 @@ import React from "react";
 import { DivPrincipal } from "../styles/habilitiesStyle";
 import backgroundSpotify from '../../imagens/backgroundCardSpotify.png'
 import backgroundPokedex from '../../imagens/backgroundCardPokedex.png'
+import backgroundPokedexV2 from '../../imagens/PokedexV2.png'
 import {
   Card,
   DivPortfolio,
@@ -61,6 +62,24 @@ function Portfolio() {
               <TitleCard id="titleCard" >Spotify Home</TitleCard>
               <Description id="des">Home Spotify responsiva,
               escolha uma musica e a coloque para tocar
+              </Description>
+              <DivFrameworks>
+                <Frameworks >React</Frameworks>
+                <Frameworks>Html</Frameworks>
+                <Frameworks>Css</Frameworks>
+              </DivFrameworks>
+            </a>
+          </Card>
+
+          <Card>
+            <a
+              style={{ textDecoration: "none", border: "none" }}
+              href="https://neon-cranachan-39baa1.netlify.app"
+              target="_blank"
+            >
+              <ImgCard id="imgCard" style={{backgroundImage:`url(${backgroundPokedexV2})`}}></ImgCard>
+              <TitleCard id="titleCard" >Pokedex V2</TitleCard>
+              <Description id="des">Pokedex melhorada, com detalhes como status, habilidades, e evoluções de cada Pokemon
               </Description>
               <DivFrameworks>
                 <Frameworks >React</Frameworks>
